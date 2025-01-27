@@ -1,0 +1,34 @@
+html {
+    background-color: #edce4f;
+}
+
+.main-card {
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    width: 22%;
+    height: 62%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 7px 1px black;
+}
+
+.main-card img {
+    width: 301px;
+    transform: translate(18.5px, 18px);
+    border-radius: 16px;
+}
+
+#side-button {
+    background-color:#edce4f ;
+    font-weight: bold;
+    /*margin: 19px;*/
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    transform: translate(18px, 27px);
+}
