@@ -22,8 +22,8 @@ html {
 
 #side-button {
     background-color:#edce4f ;
-    font-weight: bold;
-    /*margin: 19px;*/
+    font-weight: 900;
+    font-family: Figtree;
     border: none;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -31,4 +31,52 @@ html {
     padding-right: 8px;
     border-radius: 3px;
     transform: translate(18px, 27px);
+}
+
+#short-intro {
+    transform: translate(18px, 26px);
+    font-size: 13px;
+    font-family: Figtree;
+    font-weight: bold;   
+}
+
+.main-card h1 {
+    transform: translate(18px, 17px);
+    font-family: Figtree;
+}
+
+#short-description {
+    transform: translate(18px, 10px);
+    font-family: Figtree;
+    font-size: 15px;
+}
+
+#author-picture {
+    width: 36px;
+    height: 36px;
+}
+
+#author-name {
+    font-family: Figtree;
+    font-size: 13px;
+    font-weight: 900;
+    transform: translate(67px, -24px);
+}
+ Media queries for different screen sizes 
+@media (min-width: 600px) {
+    .main-card {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-card {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-card {
+        max-width: 40%;
+    }
 }
