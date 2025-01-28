@@ -62,7 +62,7 @@ html {
     font-weight: 900;
     transform: translate(67px, -24px);
 }
- Media queries for different screen sizes 
+ /*Media queries for different screen sizes */
 @media (min-width: 600px) {
     .main-card {
         max-width: 80%;
